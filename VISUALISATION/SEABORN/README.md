@@ -1,4 +1,4 @@
-# Retail Sales Analysis & Visualization with Python
+# Retail Sales Analysis & Visualization using Seaborn
 
 ## Overview
 
