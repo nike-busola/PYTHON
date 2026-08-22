@@ -8,21 +8,21 @@ The analysis focuses on product sales across zones and months, as well as produc
 
 ## Project Objectives
 
-Load and inspect the product dataset.
+* Load and inspect the product dataset.
 
-Prepare the data for analysis.
+* Prepare the data for analysis.
 
-Summarize sales using pandas grouping and aggregation.
+* Summarize sales using pandas grouping and aggregation.
 
-Compare sales performance across zones.
+* Compare sales performance across zones.
 
-Examine sales across months.
+* Examine sales across months.
 
-Compare unit prices across products.
+* Compare unit prices across products.
 
-Create clear visualizations using Matplotlib.
+* Create clear visualizations using Matplotlib.
 
-Demonstrate a complete workflow from raw tabular data to visual business summaries.
+* Demonstrate a complete workflow from raw tabular data to visual business summaries.
 
 ## Dataset
 
@@ -42,25 +42,25 @@ The notebook does not document the original source of the dataset, so no externa
 
 ## Tools Used
 
-Python
+* Python
 
-Jupyter Notebook
+* Jupyter Notebook
 
-pandas — data loading, manipulation, grouping, and aggregation
+* pandas — data loading, manipulation, grouping, and aggregation
 
-Matplotlib — static data visualization
+* Matplotlib — static data visualization
 
 ## Analysis Workflow
 
-## Data Loading
+* Data Loading
 
 The project begins by loading the product dataset into a pandas DataFrame.
 
-## Data Exploration
+* Data Exploration
 
 The notebook examines the structure and contents of the data before performing the analysis.
 
-## Data Aggregation
+* Data Aggregation
 
 Pandas grouping and aggregation are used to create summaries that make the product data easier to compare.
 
@@ -72,11 +72,11 @@ Sales by month
 
 Unit price by product
 
-## Visualization
+* Visualization
 
 The aggregated results are visualized using Matplotlib. This turns the numerical summaries into charts that make comparisons easier to communicate.
 
-## Interpretation
+* Interpretation
 
 The visualizations provide a descriptive view of differences in sales and pricing across the available categories.
 
@@ -124,88 +124,35 @@ In this project, it is used to turn grouped pandas results into readable visual 
 
 ## Skills Demonstrated
 
-Python programming
+* Python programming
 
-pandas DataFrame manipulation
+* pandas DataFrame manipulation
 
-Data inspection
+* Data inspection
 
-Data aggregation
+* Data aggregation
 
-GroupBy analysis
+* GroupBy analysis
 
-Product-sales analysis
+* Product-sales analysis
 
-Categorical comparison
+* Categorical comparison
 
-Time-based sales analysis
+* Time-based sales analysis
 
-Static data visualization
+* Static data visualization
 
-Matplotlib
+* Matplotlib
 
-Exploratory Data Analysis (EDA)
+* Exploratory Data Analysis (EDA)
 
-Business data storytelling
+* Business data storytelling
 
-Portfolio Value
+## Portfolio Value
 
-This project demonstrates a foundational but important data-analytics skill: converting raw business data into meaningful visual summaries.
+This project demonstrates converting raw business data into meaningful visual summaries. It shows the connection between: 
+data preparation → analysis → visualization → interpretation.
 
-It is particularly useful as a portfolio project because it shows the connection between:
+## Conclusion
 
-data preparation → analysis → visualization → interpretation
-
-Rather than presenting charts in isolation, the notebook demonstrates how the underlying grouped summaries are created before visualization.
-
-Future Improvements
-
-Several improvements could make the project stronger as a portfolio piece:
-
-## Data Documentation
-
-Add the dataset source.
-
-Add a complete data dictionary.
-
-Document data types and expected values.
-
-Include the dataset's time period.
-
-## Analysis
-
-Calculate total sales and average sales.
-
-Add sales growth or month-over-month change.
-
-Calculate product contribution to total sales.
-
-Compare sales volume with unit price.
-
-Add additional product and zone performance metrics.
-
-## Visualization
-
-Add clear chart titles and axis labels.
-
-Add data labels where appropriate.
-
-Improve chart readability and consistency.
-
-Add annotations for important observations.
-
-Create a dashboard version using Plotly or Power BI.
-
-## Reporting
-
-Add an executive summary.
-
-Document the major findings beneath each visualization.
-
-Include recommendations based on observed patterns.
-
-Conclusion
-
-This project demonstrates a practical workflow for analysing product-sales data with Python. Pandas is used to organize and aggregate the data, while Matplotlib is used to communicate the resulting patterns visually.
-
-The project provides a solid foundation for progressing from basic exploratory analysis toward more advanced interactive dashboards, KPI reporting, and business intelligence projects.
+This project demonstrates a practical workflow for analysing product-sales data with Python. Pandas is used to organize and aggregate the data, while Matplotlib is used to communicate the resulting patterns visually. The project provides a solid foundation for progressing from basic exploratory analysis towards more advanced interactive dashboards, KPI reporting, and business intelligence projects.
